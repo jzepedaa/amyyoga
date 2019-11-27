@@ -1,7 +1,8 @@
 import React from 'react'
 import { NavigationBar } from '../components/NavigationBar';
 import { Layout } from '../components/Layout';
-import { Picture } from 'react-responsive-picture';
+import { Container, Row, Col } from 'react-bootstrap'
+
 // import { car } from '../photos/car.JPG';
 import Slide from 'react-reveal/Slide';
 import styled from 'styled-components';
@@ -9,20 +10,13 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
 
-.layout{
-  /* background-color: black; */
-}
-.picture{
-  text-align: center;
-  /* width: 50%; */
+.topphoto{
+  width: 100%;
 
 }
-
 .bio{
-  /* background-color: black; */
   color: white;
 }
-
 
 
 
@@ -41,10 +35,26 @@ export const About = () => (
           <div className="picture">
             {/* <h2>About Page</h2> */}
 
-            <Slide top>
-              <img src={require('../photos/car.JPG')} alt="car" />
-              {/* <Picture className="car" src={car} /> */}
-            </Slide>
+
+            <Container className="introductiontext mbsc-grid">
+              <Row >
+                <Col></Col>
+
+                <Col>
+                  <Slide top>
+                    <img className="topphoto" src={require('../photos/car.JPG')} alt="car" />
+                    {/* <Picture className="car" src={car} /> */}
+                  </Slide>
+
+                </Col>
+                <Col></Col>
+
+
+              </Row>
+            </Container>
+
+
+
           </div>
           <hr style={{ borderTop: '3px solid white' }} />
           <div className="bio">

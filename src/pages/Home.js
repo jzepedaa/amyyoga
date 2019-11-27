@@ -2,7 +2,7 @@ import React from 'react'
 import Slide from 'react-reveal/Slide';
 import { Picture } from 'react-responsive-picture';
 import intro from '../photos/Intro.JPG';
-import onelegup from '../photos/onelegup.jpg'
+// import onelegup from '../photos/onelegup.jpg'
 import styled from 'styled-components';
 import { NavigationBar } from '../components/NavigationBar';
 import { Container, Row, Col } from 'react-bootstrap'
