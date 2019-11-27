@@ -38,7 +38,7 @@ export const About = () => (
 
             <Container className="introductiontext mbsc-grid">
               <Row >
-                <Col></Col>
+
 
                 <Col>
                   <Slide top>
@@ -47,7 +47,7 @@ export const About = () => (
                   </Slide>
 
                 </Col>
-                <Col></Col>
+
 
 
               </Row>
