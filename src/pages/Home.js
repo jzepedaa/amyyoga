@@ -2,6 +2,7 @@ import React from 'react'
 import Slide from 'react-reveal/Slide';
 import { Picture } from 'react-responsive-picture';
 import intro from '../photos/Intro.JPG';
+// import { Container } from 'react-bootstrap';
 // import onelegup from '../photos/onelegup.jpg'
 import styled from 'styled-components';
 import { NavigationBar } from '../components/NavigationBar';
@@ -20,113 +21,67 @@ const Styles = styled.div`
 }
 
 h2 { 
-  text-align: center;
-  position: absolute; 
-  /* background: black;
-  opacity: .7; */
-  top: 125px; 
-  left: 0px; 
-  width: 100%; 
+  /* font-family:fantasy; */
+  color:white;
+  /* position: absolute;  */
   font-size: 75px;
+text-align:center;
 }
 
-h2 span { 
-   color: white; 
-   font-weight: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.4); 
-   padding: 10px;  
-} 
-.introduction{
 
+.introduction{
   text-align: center;
   /* background: black; */
 
 }
 
 
-
-
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-   h2 { 
-  text-align: center;
-  position: absolute;
-  font-size: 60px; 
-  top:100px; 
-  left: 0px; 
-  width: 100%; 
-}
-
-h2 span { 
-   color: white; 
-   font-weight: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.4); 
-   padding: 10px;  
-} 
+  h2 {
+    font-size: 60px;
+    /* padding-left: 150px; */
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  h2 { 
-  text-align: center;
-  position: absolute; 
-  top: 55px; 
-  left: 0px; 
-  width: 100%; 
+
+h2{
+  font-size: 10px;
+}
 }
 
-h2 span { 
-   color: white; 
-   font-weight: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.4); 
-   padding: 10px;  
-} 
-}
-
-@media only screen and (max-width: 375px) {
-  /* For mobile phones: */
-   h2 { 
-  text-align: center;
-  position: absolute; 
-  top: 55px; 
-  left: 0px; 
-  width: 100%; 
-}
-
-h2 span { 
-   color: white; 
-   font-weight: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.4); 
-   padding: 10px;  
-} 
-}
 
 @media only screen and (max-width: 414px) {
-  h2 { 
-  text-align: center;
-  position: absolute; 
-font-size: 30px;
-  top: 100px; 
-  left: 0px; 
-  width: 100%; 
+
+h2{
+  font-size: 35px;
 }
 
-h2 span { 
-   color: white; 
-   font-weight: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.4); 
-   padding: 10px;  
-} 
 }
+
+@media only screen and (max-width: 411px) {
+
+h2{
+  font-size: 30px;
+}
+
+}
+@media only screen and (max-width: 360px) {
+
+h2{
+  font-size: 30px;
+}
+h1{
+  font-size: 30px;
+}
+@media only screen and (max-width: 375px) {
+
+h2{
+  font-size: 25px;
+}
+}
+}
+
 
 
 .text{
@@ -142,7 +97,6 @@ h2 span {
 }
 
 
-
 `
 
 
@@ -152,18 +106,18 @@ export const Home = () => (
 
   <Styles>
     <Layout>
-      <div className="layout">
+      <NavigationBar />
+      <Container className="layout">
 
         {/* <h2>About Page</h2> */}
-        <NavigationBar />
+        <h2>Strength in Softness</h2>
         <Slide top left>
-          <div className="topPhoto">
+          <div className="topPhoto layout">
 
             <Picture className="intro" src={intro} />
           </div>
-          <h2>Strength in Softness</h2>
         </Slide>
-      </div>
+      </Container>
 
 
       {/* <div className="text">

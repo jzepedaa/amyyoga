@@ -7,7 +7,7 @@ const Styles = styled.div`
   padding-top:20px;
   padding-bottom: 20px;
   text-align: center;
-  background-color:black;
+  /* background-color:black; */
   color: white;
 }
 `;

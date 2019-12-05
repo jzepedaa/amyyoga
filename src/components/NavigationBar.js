@@ -7,7 +7,7 @@ const Styles = styled.div`
   .navbar {
     text-align: center;
     background-color: black;
-    color: White;
+    color: grey;
     padding: 30px;
     /* padding-bottom: 20px; */
     /* border-bottom: 10px solid #B5c2b7; */

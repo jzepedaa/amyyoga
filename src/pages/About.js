@@ -18,6 +18,18 @@ const Styles = styled.div`
   color: white;
 }
 
+.picture{
+  text-align:center;
+}
+
+img{
+   height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 500px;
+    text-align:center;
+}
+
 
 
 `
