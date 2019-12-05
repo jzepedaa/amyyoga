@@ -70,11 +70,11 @@ export const NavigationBar = () => (
               <Link to="/classes">Schedule</Link>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          {/* <Nav.Item>
             <Nav.Link>
               <Link to="/photos">Photos</Link>
             </Nav.Link>
-          </Nav.Item>
+          </Nav.Item> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

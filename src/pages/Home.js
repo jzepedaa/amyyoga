@@ -9,6 +9,7 @@ import { NavigationBar } from '../components/NavigationBar';
 import { Container, Row, Col } from 'react-bootstrap'
 import ScrollUpButton from "react-scroll-up-button";
 import { Layout } from '../components/Layout';
+// import { BrowserRouter as Link } from 'react-router-dom';
 
 // import darkflower from '../photos/darkflower.jpg'
 
@@ -146,7 +147,13 @@ export const Home = () => (
 
 
 
+
         </Row>
+
+
+        {/* <a href="src/pages/Classes.js">Schedule</a> */}
+
+
       </Container>
       <ScrollUpButton />
     </Layout>
