@@ -2,6 +2,7 @@ import React from 'react'
 import { NavigationBar } from '../components/NavigationBar';
 import { Layout } from '../components/Layout';
 import styled from 'styled-components';
+import { SlideShow } from '../components/Carousel';
 
 const Styles = styled.div`
 .heading{
@@ -31,6 +32,7 @@ export const Classes = () => (
     <div className="layout">
       <NavigationBar />
       <Layout>
+
         <h2 className="heading">Weekly Schedule</h2>
         <br></br>
 
@@ -56,8 +58,8 @@ export const Classes = () => (
 
         <h5>For private sessions please reach out to amyheiar@gmail.com for availability and more information. </h5>
 
-
-
+        <br></br>
+        <SlideShow />
       </Layout>
     </div>
   </Styles>
