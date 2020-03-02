@@ -42,8 +42,7 @@ export const Classes = () => (
 
 
           <p> Tuesdays:
-   8 AM and 11 AM, Midtown Athletic Club,
-   5:15 PM 333 South Wabash (LifeStart Wellness)
+   8 AM and 11 AM, Midtown Athletic Club
         </p>
           <p>
             Wednesdays:
