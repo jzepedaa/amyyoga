@@ -36,7 +36,7 @@ const Styles = styled.div`
     border-color: white;
 }
 .navbar-toggler-icon {
-  /* color: white; */
+  /* color: black; */
     display: inline-block;
     width: 1.5em;
     height: 1.5em;

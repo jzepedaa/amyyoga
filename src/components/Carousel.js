@@ -10,6 +10,7 @@ import teaching from '../photos/teaching.JPG';
 // import posetwo from '../photos/pose2.jpg';
 // import poseone from '../photos/pose1.jpg';
 // import onelegup from '../photos/onelegup.jpg';
+// import { Carousel } from "react-responsive-carousel";
 
 
 // import Inside from '../pictures/Inside.jpg';
@@ -26,6 +27,9 @@ import teaching from '../photos/teaching.JPG';
 // `;
 
 export const SlideShow = () => (
+
+
+
 
   <Container>
     <Row>
@@ -51,8 +55,6 @@ export const SlideShow = () => (
             />
 
             <Carousel.Caption>
-              {/* <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -63,8 +65,6 @@ export const SlideShow = () => (
             />
 
             <Carousel.Caption>
-              {/* <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -75,8 +75,6 @@ export const SlideShow = () => (
             />
 
             <Carousel.Caption>
-              {/* <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

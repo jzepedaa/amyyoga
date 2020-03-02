@@ -97,6 +97,10 @@ h2{
   padding:30px;
 }
 
+.bio{
+  background: black;
+}
+
 
 `
 
@@ -137,12 +141,13 @@ export const Home = () => (
       <Container className="introductiontext mbsc-grid">
         <Row >
 
-          <Col>
+          <Col className="bio">
             <div className="text">
               <h1>Amy Heiar</h1>
             </div>
-            <p>Amy Heiar is a Certified Yoga Instructor based in Chicago, IL. With 5.5 years of teaching experience and over 500 hours of training, she creates a safe environment for students of all levels to focus on their internal and external selves and cultivate a deeper awareness of both.
-</p><p>
+            <p>Amy Heiar is a Certified Yoga Instructor based in Chicago, IL. With years of teaching experience and over 500 hours of training, she creates a safe environment for students of all levels to focus on their internal and external selves and cultivate a deeper awareness of both.
+</p>
+            <p >
               In her yoga classes, Amy guides students through alignment focused strength building postures, while at the same time fostering the growth of a strong inner softness through breath and awareness from within.
 </p>
 

@@ -3,6 +3,7 @@ import { NavigationBar } from '../components/NavigationBar';
 import { Layout } from '../components/Layout';
 import styled from 'styled-components';
 import { SlideShow } from '../components/Carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Styles = styled.div`
 .heading{
