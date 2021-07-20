@@ -10,7 +10,7 @@
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.11.0",
     "react-image-gallery": "^0.9.1",
-    "react-native": "^0.61.5",
+    "react-native": "^0.62.3",
     "react-responsive-carousel": "^3.1.51",
     "react-responsive-picture": "^3.2.2",
     "react-reveal": "^1.2.2",
